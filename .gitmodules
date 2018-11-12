@@ -1,0 +1,4 @@
+[submodule "bullet3"]
+	path = bullet3
+	url = git@github.com:Levi-Armstrong/bullet3
+        branch = trajopt
