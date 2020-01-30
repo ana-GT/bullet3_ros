@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.4.3)
 project(bullet3_ros)
 
-add_compile_options(-std=c++11 -w)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -w")
 
 find_package(catkin REQUIRED COMPONENTS)
 
